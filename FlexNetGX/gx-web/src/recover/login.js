@@ -36,7 +36,7 @@ class Auth {
 
         try {
             // Check for Genesis bountycreator first
-            if (username === 'genesis' && password === 'bountycreator123') {
+            if (username === 'genesis' && password === 'admin123') {
                 console.log('Genesis bountycreator login successful');
                 sessionStorage.setItem('isAuthenticated', 'true');
                 sessionStorage.setItem('userRole', 'genesis');

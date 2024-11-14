@@ -42,7 +42,7 @@ DeGIG is a comprehensive moderate and bounty management platform designed to fac
 - Secure data storage and retrieval
 - CSV data import/export functionality
 - Data filtering and search capabilities
-- Real-time updates and synchronization
+- Real-time updates and synchronization4
 
 ## Technical Architecture
 

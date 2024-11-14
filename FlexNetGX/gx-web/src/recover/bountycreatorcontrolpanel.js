@@ -61,7 +61,7 @@ async function handleFormSubmit(event) {
         // Get form values
         const username = document.getElementById('username').value.trim();
         const email = document.getElementById('email').value.trim();
-        const password = document.getElementById('password').value || 'bountycreator123'; // Use default if empty
+        const password = document.getElementById('password').value || 'admin123'; // Use default if empty
         const role = document.getElementById('role').value || 'user'; // Use default if empty
         
         console.log('Form values:', { username, email, password: '***', role }); // Debug log
@@ -106,7 +106,7 @@ async function handleFormSubmit(event) {
             document.getElementById('bountycreator-creation-form').reset();
             
             // Set default password again after form reset
-            document.getElementById('password').value = 'bountycreator123';
+            document.getElementById('password').value = 'admin123';
             
             // Refresh data display
             await displayData();
@@ -162,7 +162,7 @@ window.addEventListener('load', () => {
         }
 
         // Set default password
-        document.getElementById('password').value = 'bountycreator123';
+        document.getElementById('password').value = 'admin123';
 
         // Setup form submit handler
         const form = document.getElementById('bountycreator-creation-form');
